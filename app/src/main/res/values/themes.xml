@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Normal App Theme -->
+    <style name="Theme.BudgetTrackerApp" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Cold-start Splash Screen Theme -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0B132B</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.BudgetTrackerApp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="24dp"
+    android:viewportWidth="32"
+    android:viewportHeight="24">
+    <!-- Blue Background -->
+    <path
+        android:fillColor="#003399"
+        android:pathData="M0,0h32v24h-32z"/>
+    <!-- Ring of Golden Stars -->
+    <path
+        android:fillColor="#FFCC00"
+        android:pathData="M16,5h1v1h-1z M16,18h1v1h-1z M9.5,11.5h1v1h-1z M22.5,11.5h1v1h-1z M11.5,7h1v1h-1z M20.5,7h1v1h-1z M11.5,16h1v1h-1z M20.5,16h1v1h-1z M8,14h1v1h-1z M24,14h1v1h-1z M8,9h1v1h-1z M24,9h1v1h-1z"/>
+</vector>

@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="24dp"
+    android:viewportWidth="32"
+    android:viewportHeight="24">
+    <!-- Blue Field -->
+    <path
+        android:fillColor="#012169"
+        android:pathData="M0,0h32v24h-32z"/>
+    <!-- Mini Union Jack in Canton -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,0 L3,0 L14,9 L14,12 L11,12 L0,2 Z M14,0 L11,0 L0,9 L0,12 L3,12 L14,2 Z M6,0h3v12h-3z M0,4.5h14v3h-14z"/>
+    <path
+        android:fillColor="#C8102E"
+        android:pathData="M0,0 L1.5,0 L14,10.5 L14,12 L12.5,12 L0,1.5 Z M14,0 L12.5,0 L0,10.5 L0,12 L1.5,12 L14,1.5 Z M6.8,0h1.4v12h-1.4z M0,5.2h14v1.6h-14z"/>
+    <!-- Large Commonwealth 7-Point Star -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M6.5,16h2v2h-2z M5.5,17h4v1h-4z"/>
+    <!-- Southern Cross Stars -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,4h1v1h-1z M27,9h1v1h-1z M21,11h1v1h-1z M25,13h1v1h-1z M24,18h1.5v1.5h-1.5z"/>
+</vector>

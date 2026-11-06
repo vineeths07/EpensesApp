@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Deep Luxury Midnight-Obsidian Canvas -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="0"
+                android:endX="54"
+                android:endY="108"
+                android:type="linear">
+                <item android:color="#141E33" android:offset="0.0" />
+                <item android:color="#0B1120" android:offset="0.5" />
+                <item android:color="#030712" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Warm Golden Ambient Aura Behind Wallet Emblem -->
+    <path
+        android:pathData="M54,62m-36,0a36,36 0 1,0 72,0a36,36 0 1,0 -72,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="62"
+                android:gradientRadius="36"
+                android:type="radial">
+                <item android:color="#28F59E0B" android:offset="0.0" />
+                <item android:color="#0F10B981" android:offset="0.6" />
+                <item android:color="#00000000" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle Top Ambient Cyan Reflection -->
+    <path
+        android:pathData="M54,32m-32,0a32,32 0 1,0 64,0a32,32 0 1,0 -64,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="30"
+                android:gradientRadius="32"
+                android:type="radial">
+                <item android:color="#1A00E5FF" android:offset="0.0" />
+                <item android:color="#00000000" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+</vector>

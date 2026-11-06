@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. Ambient Drop Shadow Under Entire Wallet -->
+    <path
+        android:fillColor="#4D000000"
+        android:pathData="M34,48 L74,48 C80,48 85,53 85,59 L85,79 C85,85 80,90 74,90 L34,90 C28,90 23,85 23,79 L23,59 C23,53 28,48 34,48 Z" />
+
+    <!-- 2. Wallet Rear Interior Panel (The Inside Billfold Opening) -->
+    <path
+        android:pathData="M34,40 L74,40 C79.5,40 84,44.5 84,50 L84,65 L24,65 L24,50 C24,44.5 28.5,40 34,40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="40"
+                android:endX="84"
+                android:endY="65"
+                android:type="linear">
+                <item android:color="#451A03" android:offset="0.0" />
+                <item android:color="#27140B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 3. The Credit Card (Emerging Elegantly from Top Slot) -->
+    <!-- Card Body -->
+    <path
+        android:pathData="M37,25 L71,25 C74.3,25 77,27.7 77,31 L77,52 L31,52 L31,31 C31,27.7 33.7,25 37,25 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="31"
+                android:startY="25"
+                android:endX="77"
+                android:endY="52"
+                android:type="linear">
+                <item android:color="#064E3B" android:offset="0.0" />
+                <item android:color="#047857" android:offset="0.4" />
+                <item android:color="#0D9488" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Card Gold Metallic Foil Stripe -->
+    <path
+        android:pathData="M31,35h46v3.2h-46z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="31"
+                android:startY="35"
+                android:endX="77"
+                android:endY="38.2"
+                android:type="linear">
+                <item android:color="#FDE047" android:offset="0.0" />
+                <item android:color="#F59E0B" android:offset="0.5" />
+                <item android:color="#D97706" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Card Gold EMV Smart Chip -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M36,28h6v5h-6z" />
+    <path
+        android:fillColor="#B45309"
+        android:pathData="M38.5,28h1v5h-1z M36,30.5h6v0.8h-6z" />
+
+    <!-- 4. Realistic Luxury Leather Wallet Main Body -->
+    <!-- Front Leather Panel -->
+    <path
+        android:pathData="M34,44 L74,44 C79.5,44 84,48.5 84,54 L84,75 C84,80.5 79.5,85 74,85 L34,85 C28.5,85 24,80.5 24,75 L24,54 C24,48.5 28.5,44 34,44 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="44"
+                android:endX="84"
+                android:endY="85"
+                android:type="linear">
+                <item android:color="#B45309" android:offset="0.0" />
+                <item android:color="#9A3412" android:offset="0.3" />
+                <item android:color="#78350F" android:offset="0.75" />
+                <item android:color="#451A03" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top Leather Rim Highlight Line -->
+    <path
+        android:pathData="M33,44 L75,44"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FBBF24"
+        android:strokeLineCap="round" />
+
+    <!-- Perimeter Leather Stitching -->
+    <path
+        android:pathData="M34,46 L74,46 C78.5,46 82,49.5 82,54 L82,75 C82,79.5 78.5,83 74,83 L34,83 C29.5,83 26,79.5 26,75 L26,54 C26,49.5 29.5,46 34,46 Z"
+        android:strokeWidth="0.8"
+        android:strokeColor="#FDE68A"
+        android:strokeAlpha="0.45" />
+
+    <!-- 5. Horizontal Wallet Closure Clasp Strap (The Signature Wallet Detail) -->
+    <!-- Strap Drop Shadow -->
+    <path
+        android:fillColor="#3A000000"
+        android:pathData="M84,59 L54,59 C48,59 43,63.5 43,69 C43,74.5 48,79 54,79 L84,79 Z" />
+
+    <!-- Leather Strap Body -->
+    <path
+        android:pathData="M84,57 L54,57 C48.5,57 44,61.5 44,67 C44,72.5 48.5,77 54,77 L84,77 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="57"
+                android:endX="84"
+                android:endY="77"
+                android:type="linear">
+                <item android:color="#9A3412" android:offset="0.0" />
+                <item android:color="#78350F" android:offset="0.5" />
+                <item android:color="#451A03" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Strap Perimeter Stitching -->
+    <path
+        android:pathData="M84,58.5 L54,58.5 C49.5,58.5 46,62.5 46,67 C46,71.5 49.5,75.5 54,75.5 L84,75.5"
+        android:strokeWidth="0.7"
+        android:strokeColor="#FDE68A"
+        android:strokeAlpha="0.45" />
+
+    <!-- 6. THE RADIANT GOLDEN GROWTH SPARK ON THE WALLET CLASP -->
+    <!-- Gold Snap Button Disc -->
+    <path
+        android:pathData="M54,67m-7,0a7,7 0 1,0 14,0a7,7 0 1,0 -14,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="47"
+                android:startY="60"
+                android:endX="61"
+                android:endY="74"
+                android:type="linear">
+                <item android:color="#FDE047" android:offset="0.0" />
+                <item android:color="#F59E0B" android:offset="0.55" />
+                <item android:color="#B45309" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Snap Dark Inner Inset Rim -->
+    <path
+        android:pathData="M54,67m-5.2,0a5.2,5.2 0 1,0 10.4,0a5.2,5.2 0 1,0 -10.4,0"
+        android:fillColor="#451A03" />
+
+    <!-- Radiant 4-Point Golden Growth Spark -->
+    <path
+        android:pathData="M54,56 C54,64 56.4,67 65,67 C56.4,67 54,70 54,78 C54,70 51.6,67 43,67 C51.6,67 54,64 54,56 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="43"
+                android:startY="56"
+                android:endX="65"
+                android:endY="78"
+                android:type="linear">
+                <item android:color="#FFFDE7" android:offset="0.0" />
+                <item android:color="#FEF08A" android:offset="0.25" />
+                <item android:color="#F59E0B" android:offset="0.65" />
+                <item android:color="#D97706" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Diamond Brilliant Glint at Center of Spark -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,63.5 L57,67 L54,70.5 L51,67 Z" />
+
+</vector>
